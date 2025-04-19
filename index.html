@@ -1,110 +1,72 @@
-/* === Disha S Resume CSS | Soft Retro Teal Theme with Elegant Fonts === */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Playfair+Display:wght@500&display=swap');
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-  font-family: 'Outfit', sans-serif;
-  background: #f0f7f4;
-  color: #1b2a41;
-  margin: 0;
-  padding: 0;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disha S - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  color: #007f5f;
-}
+<body>
+  <header class="hero">
+    <h1>Disha S</h1>
+    <p class="tagline">Tech + Business Enthusiast | Future Leader | Python Developer</p>
+  </header>
 
-section {
-  max-width: 960px;
-  margin: auto;
-  padding: 2rem 1.5rem;
-  position: relative;
-}
+  <section class="about">
+    <h2>🔍 About Me</h2>
+    <p>I’m an energetic and disciplined student pursuing a dual degree in Computer Science Engineering at BMSIT and Digital Business at IIM Bangalore. With a foundation in leadership and creativity from my time as a Sports Head Girl, I thrive in dynamic environments and aim to make meaningful contributions through innovation and collaboration.</p>
+  </section>
 
-/* === Header === */
-.hero {
-  background: linear-gradient(145deg, #d0f4de, #fff);
-  text-align: center;
-  padding: 3rem 1rem 2rem;
-  border-bottom: 4px solid #007f5f;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-}
+  <section class="education">
+    <h2>🎓 Education</h2>
+    <ul>
+      <li><strong>IIM Bangalore</strong> – Digital Business & Entrepreneurship (2024–2027)</li>
+      <li><strong>BMSIT</strong> – Bachelor of Engineering, CSE (Expected 2028)</li>
+      <li><strong>Shri Chaitanya PU College</strong> – Grade 12 (2024): 96.83%</li>
+      <li><strong>Shri Chaitanya Techno School</strong> – Grade 10 (2022): 96%</li>
+    </ul>
+  </section>
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-}
+  <section class="skills">
+    <h2>🛠 Technical Skills</h2>
+    <div class="grid">
+      <div class="skill">🐍 Python</div>
+      <div class="skill">🧰 Microsoft Tools</div>
+      <div class="skill">🛠 SolidWorks</div>
+      <div class="skill">🧮 Matlab</div>
+      <div class="skill">🗃 SQL</div>
+    </div>
+  </section>
 
-.tagline {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #33415c;
-  font-family: 'Outfit', sans-serif;
-}
+  <section class="projects">
+    <h2>💡 Projects</h2>
+    <ul>
+      <li><strong>INCEPTIVE</strong> – Built scalable real-world solutions using Python libraries for web development, automation, data analysis, and machine learning.</li>
+    </ul>
+  </section>
 
-/* === Grid Skills === */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1.2rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
-}
+  <section class="achievements">
+    <h2>🏆 Leadership & Achievements</h2>
+    <ul>
+      <li>🎖 Sports Captain – Shri Chaitanya Techno School (2019–2020)</li>
+      <li>🗓 Organized intra- and inter-school competitions</li>
+      <li>🤝 Built strong coordination between students and faculty</li>
+    </ul>
+  </section>
 
-.skill {
-  background: #ffffff;
-  border-left: 4px solid #2b9348;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  transition: transform 0.2s ease;
-}
+  <section class="contact" id="contact">
+    <h2>📬 Contact</h2>
+    <p>📧 Email: <a href="mailto:dishasureshh@gmail.com">dishasureshh@gmail.com</a></p>
+    <p>📞 Phone: <a href="tel:+918217223376">+91-8217223376</a></p>
+    <p>📍 Bangalore, India</p>
+  </section>
 
-.skill:hover {
-  transform: translateY(-4px);
-  background: #e9f5ec;
-}
+  <footer>
+    <p>© 2025 Disha S </p>
+  </footer>
+</body>
 
-/* === Lists === */
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 1rem;
-  background: #fdfdfd;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
-  transition: background 0.2s;
-  font-family: 'Outfit', sans-serif;
-}
-
-li:hover {
-  background: #e0f2e9;
-}
-
-/* === Contact Section === */
-.contact a {
-  color: #007f5f;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
-/* === Footer === */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #2b9348;
-  color: #fff;
-  font-size: 0.85rem;
-  border-top: 3px solid #007f5f;
-  font-family: 'Outfit', sans-serif;
-}
+</html>
