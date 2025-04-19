@@ -1,0 +1,110 @@
+/* === Disha S Resume CSS | Soft Retro Teal Theme with Elegant Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: #f0f7f4;
+  color: #1b2a41;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #007f5f;
+}
+
+section {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+/* === Header === */
+.hero {
+  background: linear-gradient(145deg, #d0f4de, #fff);
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 4px solid #007f5f;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #33415c;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* === Grid Skills === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.skill {
+  background: #ffffff;
+  border-left: 4px solid #2b9348;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+
+.skill:hover {
+  transform: translateY(-4px);
+  background: #e9f5ec;
+}
+
+/* === Lists === */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  background: #fdfdfd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  transition: background 0.2s;
+  font-family: 'Outfit', sans-serif;
+}
+
+li:hover {
+  background: #e0f2e9;
+}
+
+/* === Contact Section === */
+.contact a {
+  color: #007f5f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2b9348;
+  color: #fff;
+  font-size: 0.85rem;
+  border-top: 3px solid #007f5f;
+  font-family: 'Outfit', sans-serif;
+}
